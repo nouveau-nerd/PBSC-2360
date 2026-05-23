@@ -1,0 +1,5 @@
+int score = new Random().Next(1, 101);
+string rank = score > 80 ? "High" : "Normal";
+Console.WriteLine($"Score: {score} | Rank: {rank}");
+var timestamp = DateTime.Now.ToString("HH:mm:ss");
+Console.WriteLine($"Checked at {timestamp}");
